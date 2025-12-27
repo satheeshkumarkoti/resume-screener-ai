@@ -19,7 +19,7 @@
          * Zoom
          * Teams
     * Notifications:
-         * Email++++++++
+         * Email
 * Decision Rules (one of below)
          * based on feedback
          * direct input from panel
