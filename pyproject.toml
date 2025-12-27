@@ -1,0 +1,23 @@
+[project]
+name = "resume-screener-ai"
+version = "0.1.0"
+description = "Resume screener application development with AI stack and python"
+readme = "README.md"
+authors = [
+    { name = "Satheesh Koti", email = "satheeshkumarkoti@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.2.0",
+    "langchain-core>=1.2.5",
+    "langchain-google-vertexai>=3.2.0",
+    "langgraph>=1.0.5",
+    "python-dotenv>=1.2.1",
+]
+
+[project.scripts]
+resume-screener-ai = "resume_screener_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
